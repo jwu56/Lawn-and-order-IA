@@ -1,12 +1,23 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css"
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" />
 <meta charset="utf-8">
 <title>Lawn and Order: Home</title>
 </head>
-	<img class="logo" src="img/logo.png" alt="logo" />
 <body>
-	<h1 class="cta">All of your <span class="highlight">horticultural</span><br> requirements</h1>
+	<table>
+			<td class="cta">	
+				<img class="logo general" src="img/logo.png" alt="logo" />
+				<h1 id="hlcta" class="cta general">Sign up today to gain instant access to our <span class="highlight">comprehensive</span><br> range of horticultural products. </h1>
+			</td>
+		<td class="signup">
+				<iframe id="signup-frame" class="cta-signup" src="inc/signup.html"/>
+			</td>
+
+	</table>
 </body>
 </html>

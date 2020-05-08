@@ -1,0 +1,82 @@
+/* CSS Document */
+@import url("https://use.typekit.net/hxo5ggb.css");
+/* Normal Laptop Screen */
+@media screen and (min-height:350px) and (min-width:330px) {
+	
+	a#catalogue::before {
+		content: "\a";
+		white-space: pre;
+	}
+	a#catalogue {
+		display: block;
+		width: 300px;
+	}
+body {
+	font-family: paralucent, sans-serif;
+	font-weight: 300;
+	width: 300px;
+}
+	button,input {
+		display: inline;
+		font-family: inherit;
+		font-size: inherit;
+	}
+.inline {
+	display: inline;
+}
+label {
+	display: block;
+	float: left;
+	clear: left;
+	width: 300px;
+	text-align: left;
+	padding-bottom:20px;
+}
+.box {
+	display: block;
+	float: right;
+}
+	
+}
+/*Desktop Monitor */
+@media screen and (min-height:500px) and (min-width:500px) {
+body {
+	font-family: paralucent, sans-serif;
+	font-weight: 300;
+}
+.inline {
+	display: inline;
+}
+	input {
+		font-family: inherit;
+		font-size: inherit;
+	}
+label {
+	display: block;
+	float: left;
+	clear: left;
+	width: 413px;
+	text-align: left;
+	padding-bottom:20px;
+}
+.box {
+	display: block;
+	float: right;
+}
+body {
+	width: 500px;
+	height:500px;
+	font-size:23px;
+}
+	button {
+		font-weight: inherit;
+		font-family: inherit;
+		font-size: inherit;
+	}
+a {
+	width: 600px;
+}
+	
+	
+}
+

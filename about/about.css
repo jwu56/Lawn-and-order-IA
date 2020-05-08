@@ -1,9 +1,16 @@
 @charset "utf-8";
 @import url("https://use.typekit.net/hxo5ggb.css");
-/* CSS Document */
 /* Normal Laptop Screen */
 /*@media screen and (min-height:568px) and (min-width:952px) {*/
-
+.left {
+	width: 600px;
+}
+.contact-methods {
+	width: 600px;
+}
+.longlink {
+	width: 800px;
+}
 body {
 	background-image: linear-gradient(to right,rgba(0,187,97,0.48),#02502B);
 	font-family: paralucent, sans-serif;	
@@ -14,13 +21,10 @@ span.highlight {
 	padding-left:5px;
 	padding-right:5px;
 }
-h1.cta {
-	min-height: 290px;
-	font-weight: 300; /*Set explicit override*/
+p.cta {
 	color: white;
-	font-size: 36pt;
+	font-size: 40pt;
 	display: block;
-	width: 500px;
 }
 .logo {
 		width: 300px;
@@ -28,15 +32,8 @@ h1.cta {
 	}
 iframe {
 	background-color: #D1E1D9;
-	margin-left: 200px;
-	margin-top: 50px;
-	width: 400px;
-	height: 500px;
-	border: none;
-	padding: 20px;
 }
 table,td,tr {	
-	border: 5px solid black;
 	table-layout: fixed;
 }
 /*}*/
@@ -96,4 +93,5 @@ iframe {
 }
 }
 */
+
 
