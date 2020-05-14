@@ -2,7 +2,7 @@
 @import url("https://use.typekit.net/hxo5ggb.css");
 /* CSS Document */
 /* Normal Laptop Screen */
-/*@media screen and (min-height:568px) and (min-width:952px) {*/
+/*@media screen and (height:568px) and (min-width:952px) {*/
 
 body {
 	background-image: linear-gradient(to right,rgba(0,187,97,0.48),#02502B);
@@ -15,34 +15,74 @@ span.highlight {
 	padding-right:5px;
 }
 h1.cta {
-	min-height: 290px;
 	font-weight: 300; /*Set explicit override*/
 	color: white;
 	font-size: 36pt;
-	display: block;
-	width: 500px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 .logo {
-		width: 300px;
-		height: 150px;
+		width: 150px;
+		height: 75px;
 	}
-iframe {
-	background-color: #D1E1D9;
-	margin-left: 200px;
-	margin-top: 50px;
-	width: 400px;
-	height: 500px;
-	border: none;
-	padding: 20px;
+#dropdown, #dropdown2,a.dropdown,.dropdown2,.navbar-link,tr.wrapper {
+	color: white;
+	font-size: 28px;
+	text-decoration: none;
+	vertical-align: top;
+	margin: auto;
 }
-table,td,tr {	
-	border: 5px solid black;
-	table-layout: fixed;
+.signin {
+	padding: 2px;
+	padding-top: 0;
+	vertical-align: top;
 }
+#dropdown, #dropdown2, .navbar-link {
+	display: inline-block;
+	text-align: center;
+}
+
+.dropdown,.dropdown2 {
+	text-align: center;
+	display: none;
+	/*
+	padding: 2px 0 2px 0;
+	*/
+}
+
+tr {
+	display: block;
+}
+.show {
+	display: inline-block;
+}
+table.wrapper {
+	height: 306px;
+}
+tr.wrapper, tr.wrapper > td {
+	height:302px;
+}
+table.dd1 {
+	height:263px;
+	width: 263px;
+}
+table.dd2 {
+	height:263px;
+	width: 242px;
+}
+
+/*
+tr > td {
+	margin: 0 auto;
+	display: inline-block;
+}
+*/
 /*}*/
 /*
 
-@media screen and (min-height:977px) and (min-width:1900px) {
+@media screen and (height:977px) and (min-width:1900px) {
 body {
 	background-image: linear-gradient(to right,rgba(0,187,97,0.48),#02502B);
 }

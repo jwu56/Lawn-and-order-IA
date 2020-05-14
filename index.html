@@ -2,6 +2,7 @@
 <html>
 <head>
 <script src="js/index.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css" />
@@ -9,15 +10,69 @@
 <title>Lawn and Order: Home</title>
 </head>
 <body>
-	<table>
-			<td class="cta">	
-				<img class="logo general" src="img/logo.png" alt="logo" />
-				<h1 id="hlcta" class="cta general">Sign up today to gain instant access to our <span class="highlight">comprehensive</span><br> range of horticultural products. </h1>
-			</td>
-		<td class="signup">
-				<iframe id="signup-frame" class="cta-signup" src="inc/signup.html"/>
-			</td>
-
-	</table>
+	<header>
+		<nav>
+			<table class="wrapper">
+				<tr class="wrapper">
+					<td>
+						<a href="#"><img class="logo general" src="img/logo.png" alt="logo" /></a>
+					</td>
+					<td>
+						<!-- 'Hack' to Ensure that the Home button is inline with the dropdowns -->   
+						<table>
+							<tr>
+								<td>
+									<a href="#" class="navbar-link">Home</a> 	
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<table class="dd2">
+								<tr>
+									<td>
+										<a href="javascript:dropdown('2');" id="dropdown2" class="navbar-link">Store <i class="fa fa-caret-down" id="caret-2" aria-hidden="true"></i></a>							
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#" class="dropdown2">Featured Products</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#" class="dropdown2">Catalogue</a>
+									</td>
+								</tr>
+						</table>
+					</td>
+					<td>
+						<table class="dd1">
+							<tr class="dd1">
+								<td class="dd1">
+								<a href="javascript:dropdown('1');" id="dropdown">The Company  <i class="fa fa-caret-down" aria-hidden="true" id="caret-1"></i></a>
+								</td>
+							</tr>
+							<tr class="dd1">
+								<td class="dd1">
+								<a href="#" class="dropdown">About Us</a>
+								</td>
+							</tr>
+							<tr class="dd1">
+								<td class="dd1">
+									<a href="#" class="dropdown">Contact Us</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				<td>
+					<p class="signin navbar-link">Not signed in</p><br>
+					<a href="#" class="signin navbar-link">Sign In</a><a class="signin navbar-link"> | </a><a href="#" class="signin navbar-link">Sign Up</a>
+				</td>
+			</tr>
+			</table>
+		</nav>
+	</header>
+	<h1 id="hlcta" class="cta general">All of your <span class="highlight">horticultural</span><br>requirements</h1>	 
 </body>
 </html>
